@@ -1,0 +1,1 @@
+{"id":"c5f86546fbad5fa939997f0dcad2c02b","index":2,"scriptPattern":"rnd","inputFile":"stdin","outputFile":"stdout","memoryLimit":256,"timeLimit":15000,"totalTimeLimit":120000,"solutionNames":["engine.cpp","adamant.cpp","engine_without_vectors.cpp"],"description":""}

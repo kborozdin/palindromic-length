@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="104" short-name="palindromes-master" url="https://polygon.codeforces.com/p/kb../palindromes-master">
+    <names>
+        <name language="russian" value="Палиндромы!"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+        <statement charset="UTF-8" language="russian" path="statements/.html/russian/problem.html" type="text/html"/>
+    </statements>
+    <judging cpu-name="Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz" cpu-speed="3200" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>15000</time-limit>
+            <memory-limit>1073741824</memory-limit>
+            <test-count>519</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test method="manual"/>
+                <test cmd="31pal_gen1 100000 0 3252" method="generated"/>
+                <test cmd="31pal_gen1 100000 0 8892" method="generated"/>
+                <test cmd="31pal_gen1 100000 1 2572" method="generated"/>
+                <test cmd="31pal_gen1 100000 1 2952" method="generated"/>
+                <test cmd="31pal_gen1 100 0 1652" method="generated"/>
+                <test cmd="31pal_gen1 1000 0 7592" method="generated"/>
+                <test cmd="31pal_gen1 10000 1 3472" method="generated"/>
+                <test cmd="31pal_gen 23874 100000 100000" method="generated"/>
+                <test cmd="31pal_gen 3874 90000 100000" method="generated"/>
+                <test cmd="31pal_gen 2874 90000 100000" method="generated"/>
+                <test cmd="31pal_gen 2374 90000 100000" method="generated"/>
+                <test cmd="31pal_gen 2384 90000 100000" method="generated"/>
+                <test cmd="31pal_gen_abab 12345 25" method="generated"/>
+                <test cmd="31pal_gen_abab 31415 100" method="generated"/>
+                <test cmd="31pal_gen_abab 1357 1000" method="generated"/>
+                <test cmd="31pal_gen_abab 2718 10000" method="generated"/>
+                <test cmd="31pal_gen_abab 99 100000" method="generated"/>
+                <test cmd="31pal_gen_abab 700 99782" method="generated"/>
+                <test cmd="31pal_gen_abab 2013 87439" method="generated"/>
+                <test cmd="31pal_gen_abab 1 99999" method="generated"/>
+                <test cmd="31pal_gen_abab 29999 98765" method="generated"/>
+                <test cmd="31pal_gen_abab 777 777" method="generated"/>
+                <test cmd="31pal_gen_ab 12345 25" method="generated"/>
+                <test cmd="31pal_gen_ab 31415 100" method="generated"/>
+                <test cmd="31pal_gen_ab 1357 1000" method="generated"/>
+                <test cmd="31pal_gen_ab 2718 10000" method="generated"/>
+                <test cmd="31pal_gen_ab 99 100000" method="generated"/>
+                <test cmd="31pal_gen_ab 700 99782" method="generated"/>
+                <test cmd="31pal_gen_ab 2013 87439" method="generated"/>
+                <test cmd="31pal_gen_ab 1 99999" method="generated"/>
+                <test cmd="31pal_gen_ab 29999 98765" method="generated"/>
+                <test cmd="31pal_gen_ab 777 777" method="generated"/>
+                <test cmd="31pal_gen1 300000 1 2952" method="generated"/>
+                <test cmd="31pal_gen 238741 300000 300000" method="generated"/>
+                <test cmd="31pal_gen_abab 321415 300000" method="generated"/>
+                <test cmd="31pal_gen_ab 12345 300000" method="generated"/>
+                <test cmd="31pal_gen_sqrt_noise 300000 23841" method="generated"/>
+                <test cmd="31pal_gen_sqrt_noise 300000 23842" method="generated"/>
+                <test cmd="31pal_gen_sqrt_noise 300000 23843" method="generated"/>
+                <test cmd="31pal_gen_sqrt_noise 300000 23844" method="generated"/>
+                <test cmd="31pal_gen_sqrt 300000 3841" method="generated"/>
+                <test cmd="31pal_gen_sqrt 300000 2842" method="generated"/>
+                <test cmd="31pal_gen_sqrt 300000 2343" method="generated"/>
+                <test cmd="31pal_gen_sqrt 300000 2384" method="generated"/>
+                <test cmd="31pal_gen_abc 300000" method="generated"/>
+                <test cmd="31pal_gen_abacaba" method="generated"/>
+                <test cmd="100500_gen1 100000 0 3252" method="generated"/>
+                <test cmd="100500_gen1 100000 0 8892" method="generated"/>
+                <test cmd="100500_gen1 100000 1 2572" method="generated"/>
+                <test cmd="100500_gen1 100000 1 2952" method="generated"/>
+                <test cmd="100500_gen1 100 0 1652" method="generated"/>
+                <test cmd="100500_gen1 1000 0 7592" method="generated"/>
+                <test cmd="100500_gen1 10000 1 3472" method="generated"/>
+                <test cmd="100500_gen 23874 100000 100000" method="generated"/>
+                <test cmd="100500_gen 3874 90000 100000" method="generated"/>
+                <test cmd="100500_gen 2874 90000 100000" method="generated"/>
+                <test cmd="100500_gen 2374 90000 100000" method="generated"/>
+                <test cmd="100500_gen 2384 90000 100000" method="generated"/>
+                <test cmd="100500_gen_abab 12345 25" method="generated"/>
+                <test cmd="100500_gen_abab 31415 100" method="generated"/>
+                <test cmd="100500_gen_abab 1357 1000" method="generated"/>
+                <test cmd="100500_gen_abab 2718 10000" method="generated"/>
+                <test cmd="100500_gen_abab 99 100000" method="generated"/>
+                <test cmd="100500_gen_abab 700 99782" method="generated"/>
+                <test cmd="100500_gen_abab 2013 87439" method="generated"/>
+                <test cmd="100500_gen_abab 1 99999" method="generated"/>
+                <test cmd="100500_gen_abab 29999 98765" method="generated"/>
+                <test cmd="100500_gen_abab 777 777" method="generated"/>
+                <test cmd="100500_gen_ab 12345 25" method="generated"/>
+                <test cmd="100500_gen_ab 31415 100" method="generated"/>
+                <test cmd="100500_gen_ab 1357 1000" method="generated"/>
+                <test cmd="100500_gen_ab 2718 10000" method="generated"/>
+                <test cmd="100500_gen_ab 99 100000" method="generated"/>
+                <test cmd="100500_gen_ab 700 99782" method="generated"/>
+                <test cmd="100500_gen_ab 2013 87439" method="generated"/>
+                <test cmd="100500_gen_ab 1 99999" method="generated"/>
+                <test cmd="100500_gen_ab 29999 98765" method="generated"/>
+                <test cmd="100500_gen_ab 777 777" method="generated"/>
+                <test cmd="100500_gen1 300000 1 2952" method="generated"/>
+                <test cmd="100500_gen 238741 300000 300000" method="generated"/>
+                <test cmd="100500_gen_abab 321415 300000" method="generated"/>
+                <test cmd="100500_gen_ab 12345 300000" method="generated"/>
+                <test cmd="100500_gen_sqrt_noise 300000 23841" method="generated"/>
+                <test cmd="100500_gen_sqrt_noise 300000 23842" method="generated"/>
+                <test cmd="100500_gen_sqrt_noise 300000 23843" method="generated"/>
+                <test cmd="100500_gen_sqrt_noise 300000 23844" method="generated"/>
+                <test cmd="100500_gen_sqrt 300000 3841" method="generated"/>
+                <test cmd="100500_gen_sqrt 300000 2842" method="generated"/>
+                <test cmd="100500_gen_sqrt 300000 2343" method="generated"/>
+                <test cmd="100500_gen_sqrt 300000 2384" method="generated"/>
+                <test cmd="100500_gen_abc 300000" method="generated"/>
+                <test cmd="100500_gen_abacaba" method="generated"/>
+                <test cmd="five_gen_abacaba" method="generated"/>
+                <test cmd="five_gen1 100000 0 3252" method="generated"/>
+                <test cmd="five_gen1 100000 0 8892" method="generated"/>
+                <test cmd="five_gen1 100000 1 2572" method="generated"/>
+                <test cmd="five_gen1 100000 1 2952" method="generated"/>
+                <test cmd="five_gen1 100 0 1652" method="generated"/>
+                <test cmd="five_gen1 1000 0 7592" method="generated"/>
+                <test cmd="five_gen1 10000 1 3472" method="generated"/>
+                <test cmd="five_gen 23874 100000 100000" method="generated"/>
+                <test cmd="five_gen 3874 90000 100000" method="generated"/>
+                <test cmd="five_gen 2874 90000 100000" method="generated"/>
+                <test cmd="five_gen 2374 90000 100000" method="generated"/>
+                <test cmd="five_gen 2384 90000 100000" method="generated"/>
+                <test cmd="five_gen_abab 12345 25" method="generated"/>
+                <test cmd="five_gen_abab 31415 100" method="generated"/>
+                <test cmd="five_gen_abab 1357 1000" method="generated"/>
+                <test cmd="five_gen_abab 2718 10000" method="generated"/>
+                <test cmd="five_gen_abab 99 100000" method="generated"/>
+                <test cmd="five_gen_abab 700 99782" method="generated"/>
+                <test cmd="five_gen_abab 2013 87439" method="generated"/>
+                <test cmd="five_gen_abab 1 99999" method="generated"/>
+                <test cmd="five_gen_abab 29999 98765" method="generated"/>
+                <test cmd="five_gen_abab 777 777" method="generated"/>
+                <test cmd="five_gen_ab 12345 25" method="generated"/>
+                <test cmd="five_gen_ab 31415 100" method="generated"/>
+                <test cmd="five_gen_ab 1357 1000" method="generated"/>
+                <test cmd="five_gen_ab 2718 10000" method="generated"/>
+                <test cmd="five_gen_ab 99 100000" method="generated"/>
+                <test cmd="five_gen_ab 700 99782" method="generated"/>
+                <test cmd="five_gen_ab 2013 87439" method="generated"/>
+                <test cmd="five_gen_ab 1 99999" method="generated"/>
+                <test cmd="five_gen_ab 29999 98765" method="generated"/>
+                <test cmd="five_gen_ab 777 777" method="generated"/>
+                <test cmd="mnem_gen_aaaaaa a 100" method="generated"/>
+                <test cmd="mnem_gen_ababa a b 67" method="generated"/>
+                <test cmd="mnem_gen_periodic ab 42" method="generated"/>
+                <test cmd="mnem_gen_periodic abc 21" method="generated"/>
+                <test cmd="mnem_gen_periodic aaba 100" method="generated"/>
+                <test cmd="mnem_gen_periodic entaroadun 10" method="generated"/>
+                <test cmd="mnem_gen_fibonacci a b 7" method="generated"/>
+                <test cmd="mnem_gen_fibonacci b a 10" method="generated"/>
+                <test cmd="mnem_gen_abacaba 6" method="generated"/>
+                <test cmd="mnem_gen_yap 5 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 2 87 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 3 89 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 26 101 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 2 99 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 4 100 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 26 98 16021986" method="generated"/>
+                <test cmd="mnem_gen_maxans a b 98" method="generated"/>
+                <test cmd="mnem_gen_maxans b a 99" method="generated"/>
+                <test cmd="mnem_gen_maxans r s 100" method="generated"/>
+                <test cmd="mnem_gen_anticube1 a b c 3995" method="generated"/>
+                <test cmd="mnem_gen_anticube1 x y z 3996" method="generated"/>
+                <test cmd="mnem_gen_anticube1 q x z 3997" method="generated"/>
+                <test cmd="mnem_gen_anticube2 a b c d e 3998" method="generated"/>
+                <test cmd="mnem_gen_anticube2 i j k l m 3999" method="generated"/>
+                <test cmd="mnem_gen_anticube2 r s t z x 4000" method="generated"/>
+                <test cmd="mnem_gen_aaaaaa w 1001" method="generated"/>
+                <test cmd="mnem_gen_ababa x y 430" method="generated"/>
+                <test cmd="mnem_gen_periodic ijk 359" method="generated"/>
+                <test cmd="mnem_gen_periodic aababb 166" method="generated"/>
+                <test cmd="mnem_gen_periodic aduntoridas 90" method="generated"/>
+                <test cmd="mnem_gen_fibonacci k l 12" method="generated"/>
+                <test cmd="mnem_gen_fibonacci i j 15" method="generated"/>
+                <test cmd="mnem_gen_abacaba 10" method="generated"/>
+                <test cmd="mnem_gen_yap 8 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 2 997 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 5 900 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 16 1000 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 2 998 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 11 991 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 26 1000 16021986" method="generated"/>
+                <test cmd="mnem_gen_maxans a b 996" method="generated"/>
+                <test cmd="mnem_gen_maxans a z 997" method="generated"/>
+                <test cmd="mnem_gen_maxans x z 1001" method="generated"/>
+                <test cmd="mnem_gen_aaaaaa z 4000" method="generated"/>
+                <test cmd="mnem_gen_ababa q x 1999" method="generated"/>
+                <test cmd="mnem_gen_periodic qxx 1333" method="generated"/>
+                <test cmd="mnem_gen_periodic qxz 1333" method="generated"/>
+                <test cmd="mnem_gen_periodic aababb 666" method="generated"/>
+                <test cmd="mnem_gen_periodic abracadabra 363" method="generated"/>
+                <test cmd="mnem_gen_periodic stupidbastard 307" method="generated"/>
+                <test cmd="mnem_gen_fibonacci z x 17" method="generated"/>
+                <test cmd="mnem_gen_abacaba 11" method="generated"/>
+                <test cmd="mnem_gen_yap 10 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 2 4000 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 3 4000 16021986" method="generated"/>
+                <test cmd="mnem_gen_rand 26 4000 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 2 3998 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 4 3997 16021986" method="generated"/>
+                <test cmd="mnem_gen_palindrome 26 4000 16021986" method="generated"/>
+                <test cmd="mnem_gen_maxans a b 4000" method="generated"/>
+                <test cmd="mnem_gen_maxans q x 3999" method="generated"/>
+                <test cmd="mnem_gen_maxans i j 3998" method="generated"/>
+                <test cmd="mnem_gen_maxans k l 3997" method="generated"/>
+                <test cmd="pairs_gen1 100000 0 3252" method="generated"/>
+                <test cmd="pairs_gen1 100000 0 8892" method="generated"/>
+                <test cmd="pairs_gen1 100000 1 2572" method="generated"/>
+                <test cmd="pairs_gen1 100000 1 2952" method="generated"/>
+                <test cmd="pairs_gen1 100 0 1652" method="generated"/>
+                <test cmd="pairs_gen1 1000 0 7592" method="generated"/>
+                <test cmd="pairs_gen1 10000 1 3472" method="generated"/>
+                <test cmd="pairs_gen 23874 100000 100000" method="generated"/>
+                <test cmd="pairs_gen 3874 90000 100000" method="generated"/>
+                <test cmd="pairs_gen 2874 90000 100000" method="generated"/>
+                <test cmd="pairs_gen 2374 90000 100000" method="generated"/>
+                <test cmd="pairs_gen 2384 90000 100000" method="generated"/>
+                <test cmd="pairs_gen_abab 12345 25" method="generated"/>
+                <test cmd="pairs_gen_abab 31415 100" method="generated"/>
+                <test cmd="pairs_gen_abab 1357 1000" method="generated"/>
+                <test cmd="pairs_gen_abab 2718 10000" method="generated"/>
+                <test cmd="pairs_gen_abab 99 100000" method="generated"/>
+                <test cmd="pairs_gen_abab 700 99782" method="generated"/>
+                <test cmd="pairs_gen_abab 2013 87439" method="generated"/>
+                <test cmd="pairs_gen_abab 1 99999" method="generated"/>
+                <test cmd="pairs_gen_abab 29999 98765" method="generated"/>
+                <test cmd="pairs_gen_abab 777 777" method="generated"/>
+                <test cmd="pairs_gen_ab 12345 25" method="generated"/>
+                <test cmd="pairs_gen_ab 31415 100" method="generated"/>
+                <test cmd="pairs_gen_ab 1357 1000" method="generated"/>
+                <test cmd="pairs_gen_ab 2718 10000" method="generated"/>
+                <test cmd="pairs_gen_ab 99 100000" method="generated"/>
+                <test cmd="pairs_gen_ab 700 99782" method="generated"/>
+                <test cmd="pairs_gen_ab 2013 87439" method="generated"/>
+                <test cmd="pairs_gen_ab 1 99999" method="generated"/>
+                <test cmd="pairs_gen_ab 29999 98765" method="generated"/>
+                <test cmd="pairs_gen_ab 777 777" method="generated"/>
+                <test cmd="pairs_gen1 300000 1 2952" method="generated"/>
+                <test cmd="pairs_gen 238741 300000 300000" method="generated"/>
+                <test cmd="pairs_gen_abab 321415 300000" method="generated"/>
+                <test cmd="pairs_gen_ab 12345 300000" method="generated"/>
+                <test cmd="pairs_gen_sqrt_noise 300000 23841" method="generated"/>
+                <test cmd="pairs_gen_sqrt_noise 300000 23842" method="generated"/>
+                <test cmd="pairs_gen_sqrt_noise 300000 23843" method="generated"/>
+                <test cmd="pairs_gen_sqrt_noise 300000 23844" method="generated"/>
+                <test cmd="pairs_gen_sqrt 300000 3841" method="generated"/>
+                <test cmd="pairs_gen_sqrt 300000 2842" method="generated"/>
+                <test cmd="pairs_gen_sqrt 300000 2343" method="generated"/>
+                <test cmd="pairs_gen_sqrt 300000 2384" method="generated"/>
+                <test cmd="pairs_gen_abc 300000" method="generated"/>
+                <test cmd="pairs_gen_abacaba" method="generated"/>
+                <test cmd="split_gen_anti_greedy 8 123" method="generated"/>
+                <test cmd="split_gen_anti_greedy 9 42" method="generated"/>
+                <test cmd="split_gen_anti_greedy 11 13" method="generated"/>
+                <test cmd="split_gen_anti_greedy 15 613" method="generated"/>
+                <test cmd="split_gen_pattern 1 15 228" method="generated"/>
+                <test cmd="split_gen_pattern 1 15 230" method="generated"/>
+                <test cmd="split_gen_pattern 3 15 333" method="generated"/>
+                <test cmd="split_gen_pattern 3 15 334" method="generated"/>
+                <test cmd="split_gen_many_same 15 10 231" method="generated"/>
+                <test cmd="split_gen_many_same 15 10 232" method="generated"/>
+                <test cmd="split_gen 3 11 10" method="generated"/>
+                <test cmd="split_gen 4 13 15" method="generated"/>
+                <test cmd="split_gen 5 15 26" method="generated"/>
+                <test cmd="split_gen 8 11 10" method="generated"/>
+                <test cmd="split_gen 9 13 15" method="generated"/>
+                <test cmd="split_gen 10 15 26" method="generated"/>
+                <test cmd="split_gen_anti_greedy 49 39" method="generated"/>
+                <test cmd="split_gen_anti_greedy 129 132" method="generated"/>
+                <test cmd="split_gen_anti_greedy 199 14" method="generated"/>
+                <test cmd="split_gen_anti_greedy 299 65535" method="generated"/>
+                <test cmd="split_gen_pattern 1 300 555" method="generated"/>
+                <test cmd="split_gen_pattern 1 300 556" method="generated"/>
+                <test cmd="split_gen_pattern 3 300 557" method="generated"/>
+                <test cmd="split_gen_pattern 3 300 558" method="generated"/>
+                <test cmd="split_gen_many_same 300 10 559" method="generated"/>
+                <test cmd="split_gen_many_same 300 10 560" method="generated"/>
+                <test cmd="split_gen 103 150 10" method="generated"/>
+                <test cmd="split_gen 104 200 15" method="generated"/>
+                <test cmd="split_gen 105 300 26" method="generated"/>
+                <test cmd="split_gen 108 150 10" method="generated"/>
+                <test cmd="split_gen 109 200 15" method="generated"/>
+                <test cmd="split_gen 110 300 26" method="generated"/>
+                <test cmd="split_gen_pattern 1 3000 569" method="generated"/>
+                <test cmd="split_gen_pattern 3 3000 570" method="generated"/>
+                <test cmd="split_gen_many_same 3000 5 571" method="generated"/>
+                <test cmd="split_gen 3002 2500 26" method="generated"/>
+                <test cmd="split_gen 3003 2900 26" method="generated"/>
+                <test cmd="split_gen 3004 2990 26" method="generated"/>
+                <test cmd="split_gen 3005 2991 26" method="generated"/>
+                <test cmd="split_gen 3006 2993 26" method="generated"/>
+                <test cmd="split_gen 3007 2997 26" method="generated"/>
+                <test cmd="split_gen 3008 2999 26" method="generated"/>
+                <test cmd="split_gen 3009 3000 26" method="generated"/>
+                <test cmd="split_gen 3010 3000 26" method="generated"/>
+                <test cmd="split_gen_anti_greedy 1999 666" method="generated"/>
+                <test cmd="split_gen_anti_greedy 2499 777" method="generated"/>
+                <test cmd="split_gen_anti_greedy 2799 101" method="generated"/>
+                <test cmd="split_gen_anti_greedy 2999 111" method="generated"/>
+                <test cmd="split_gen_pattern 1 3000 601" method="generated"/>
+                <test cmd="split_gen_pattern 3 3000 602" method="generated"/>
+                <test cmd="split_gen_many_same 3000 5 603" method="generated"/>
+                <test cmd="split_gen 3502 2500 26" method="generated"/>
+                <test cmd="split_gen 3503 2900 26" method="generated"/>
+                <test cmd="split_gen 3504 2990 26" method="generated"/>
+                <test cmd="split_gen 3505 2991 26" method="generated"/>
+                <test cmd="split_gen 3506 2993 26" method="generated"/>
+                <test cmd="split_gen 3507 2997 26" method="generated"/>
+                <test cmd="split_gen 3508 2999 26" method="generated"/>
+                <test cmd="split_gen 3509 3000 26" method="generated"/>
+                <test cmd="split_gen 3510 3000 26" method="generated"/>
+                <test cmd="split_gen_pattern 3 200000 999" method="generated"/>
+                <test cmd="split_gen 4002 150000 26" method="generated"/>
+                <test cmd="split_gen 4003 190000 26" method="generated"/>
+                <test cmd="split_gen 4004 199500 26" method="generated"/>
+                <test cmd="split_gen 4005 199579 26" method="generated"/>
+                <test cmd="split_gen 4006 199933 26" method="generated"/>
+                <test cmd="split_gen 4007 199986 26" method="generated"/>
+                <test cmd="split_gen 4008 199991 26" method="generated"/>
+                <test cmd="split_gen 4009 200000 26" method="generated"/>
+                <test cmd="split_gen 4010 200000 26" method="generated"/>
+                <test cmd="split_gen_anti_greedy 99999 123" method="generated"/>
+                <test cmd="split_gen_anti_greedy 149999 321" method="generated"/>
+                <test cmd="split_gen_anti_greedy 169999 5" method="generated"/>
+                <test cmd="split_gen_anti_greedy 199999 6" method="generated"/>
+                <test cmd="split_gen_pattern 3 200000 998" method="generated"/>
+                <test cmd="split_gen 4502 150000 26" method="generated"/>
+                <test cmd="split_gen 4503 190000 26" method="generated"/>
+                <test cmd="split_gen 4504 199500 26" method="generated"/>
+                <test cmd="split_gen 4505 199579 26" method="generated"/>
+                <test cmd="split_gen 4506 199933 26" method="generated"/>
+                <test cmd="split_gen 4507 199986 26" method="generated"/>
+                <test cmd="split_gen 4508 199991 26" method="generated"/>
+                <test cmd="split_gen 4509 200000 26" method="generated"/>
+                <test cmd="split_gen 4510 200000 26" method="generated"/>
+                <test cmd="sverkh_antihash" method="generated"/>
+                <test cmd="sverkh_antihash bc" method="generated"/>
+                <test cmd="sverkh_antihash ac" method="generated"/>
+                <test cmd="sverkh_antihash sd" method="generated"/>
+                <test cmd="sverkh_antihash az" method="generated"/>
+                <test cmd="sverkh_antihash dk" method="generated"/>
+                <test cmd="sverkh_antihash el" method="generated"/>
+                <test cmd="sverkh_genbadstring" method="generated"/>
+                <test cmd="sverkh_genbadstring 3568" method="generated"/>
+                <test cmd="sverkh_genbadstring 7326" method="generated"/>
+                <test cmd="sverkh_genbadstring 2853" method="generated"/>
+                <test cmd="sverkh_genbadstring 9427" method="generated"/>
+                <test cmd="sverkh_genbadstring2" method="generated"/>
+                <test cmd="sverkh_genbadstring2 3568" method="generated"/>
+                <test cmd="sverkh_genbadstring2 7326" method="generated"/>
+                <test cmd="sverkh_genbadstring2 2853" method="generated"/>
+                <test cmd="sverkh_genbadstring2 9427" method="generated"/>
+                <test cmd="sverkh_genmul a" method="generated"/>
+                <test cmd="sverkh_genmul ab" method="generated"/>
+                <test cmd="sverkh_genmul abc" method="generated"/>
+                <test cmd="sverkh_genmul babacab" method="generated"/>
+                <test cmd="sverkh_genmul abcbcbcbcabcbcbcabcbcabc" method="generated"/>
+                <test cmd="sverkh_genmul abacabadabacabaeabacabadabacabazx" method="generated"/>
+                <test cmd="sverkh_rnd" method="generated"/>
+                <test cmd="sverkh_rnd 3568" method="generated"/>
+                <test cmd="sverkh_rnd 7326" method="generated"/>
+                <test cmd="sverkh_rnd 2853" method="generated"/>
+                <test cmd="sverkh_rnd 9427" method="generated"/>
+                <test cmd="sverkh_rnd 35681" method="generated"/>
+                <test cmd="sverkh_rnd 73261" method="generated"/>
+                <test cmd="sverkh_rnd 28531" method="generated"/>
+                <test cmd="sverkh_rnd 94271" method="generated"/>
+                <test cmd="sverkh_genbitnumbers 234 100" method="generated"/>
+                <test cmd="sverkh_genbitnumbers 123 1000" method="generated"/>
+                <test cmd="sverkh_genbitnumbers 98984 10000" method="generated"/>
+                <test cmd="sverkh_genbitnumbers 23421 50000" method="generated"/>
+                <test cmd="sverkh_genbitnumbers 23487 100000" method="generated"/>
+                <test cmd="sverkh_genabstring 123 1000 10" method="generated"/>
+                <test cmd="sverkh_genabstring 456 10000 5" method="generated"/>
+                <test cmd="sverkh_genabstring 789 100000 5" method="generated"/>
+                <test cmd="sverkh_genabstring 234 100000 2" method="generated"/>
+                <test cmd="sverkh_genabstring 872 100000 10" method="generated"/>
+                <test cmd="sverkh2_antihash" method="generated"/>
+                <test cmd="sverkh2_antihash bc" method="generated"/>
+                <test cmd="sverkh2_antihash ac" method="generated"/>
+                <test cmd="sverkh2_antihash sd" method="generated"/>
+                <test cmd="sverkh2_antihash az" method="generated"/>
+                <test cmd="sverkh2_antihash dk" method="generated"/>
+                <test cmd="sverkh2_antihash el" method="generated"/>
+                <test cmd="sverkh2_genbadstring" method="generated"/>
+                <test cmd="sverkh2_genbadstring 3568" method="generated"/>
+                <test cmd="sverkh2_genbadstring 7326" method="generated"/>
+                <test cmd="sverkh2_genbadstring 2853" method="generated"/>
+                <test cmd="sverkh2_genbadstring 9427" method="generated"/>
+                <test cmd="sverkh2_genbadstring2" method="generated"/>
+                <test cmd="sverkh2_genbadstring2 3568" method="generated"/>
+                <test cmd="sverkh2_genbadstring2 7326" method="generated"/>
+                <test cmd="sverkh2_genbadstring2 2853" method="generated"/>
+                <test cmd="sverkh2_genbadstring2 9427" method="generated"/>
+                <test cmd="sverkh2_genmul a" method="generated"/>
+                <test cmd="sverkh2_genmul ab" method="generated"/>
+                <test cmd="sverkh2_genmul abb" method="generated"/>
+                <test cmd="sverkh2_genmul babaaab" method="generated"/>
+                <test cmd="sverkh2_genmul ababababababababa" method="generated"/>
+                <test cmd="sverkh2_genmul bbbbbabababaaabbaaba" method="generated"/>
+                <test cmd="sverkh2_rnd" method="generated"/>
+                <test cmd="sverkh2_rnd 3568" method="generated"/>
+                <test cmd="sverkh2_rnd 7326" method="generated"/>
+                <test cmd="sverkh2_rnd 2853" method="generated"/>
+                <test cmd="sverkh2_rnd 9427" method="generated"/>
+                <test cmd="sverkh2_rnd 35681" method="generated"/>
+                <test cmd="sverkh2_rnd 73261" method="generated"/>
+                <test cmd="sverkh2_rnd 28531" method="generated"/>
+                <test cmd="sverkh2_rnd 94271" method="generated"/>
+                <test cmd="sverkh2_genbitnumbers 234 100" method="generated"/>
+                <test cmd="sverkh2_genbitnumbers 123 1000" method="generated"/>
+                <test cmd="sverkh2_genbitnumbers 98984 10000" method="generated"/>
+                <test cmd="sverkh2_genbitnumbers 23421 50000" method="generated"/>
+                <test cmd="sverkh2_genbitnumbers 23487 1000000" method="generated"/>
+                <test cmd="sverkh2_genabstring 123 1000 10" method="generated"/>
+                <test cmd="sverkh2_genabstring 456 10000 5" method="generated"/>
+                <test cmd="sverkh2_genabstring 789 100000 5" method="generated"/>
+                <test cmd="sverkh2_genabstring 234 100000 2" method="generated"/>
+                <test cmd="sverkh2_genabstring 872 100000 10" method="generated"/>
+                <test cmd="sverkh2_genbadstring 234 1000000 50" method="generated"/>
+                <test cmd="gen_pup 3" method="generated"/>
+                <test cmd="gen_pup 4" method="generated"/>
+                <test cmd="gen_pup 5" method="generated"/>
+                <test cmd="gen_pup 6" method="generated"/>
+                <test cmd="gen_pup 7" method="generated"/>
+                <test cmd="gen_pup 8" method="generated"/>
+                <test cmd="gen_pup 9" method="generated"/>
+                <test cmd="gen_pup 10" method="generated"/>
+                <test cmd="gen_pup 11" method="generated"/>
+                <test cmd="gen_pup 12" method="generated"/>
+                <test cmd="gen_periodic 1234" method="generated"/>
+                <test cmd="gen_periodic 100500" method="generated"/>
+                <test cmd="gen_periodic 200500" method="generated"/>
+                <test cmd="gen_periodic 999995" method="generated"/>
+                <test cmd="gen_periodic 999996" method="generated"/>
+                <test cmd="gen_periodic 999997" method="generated"/>
+                <test cmd="gen_periodic 999998" method="generated"/>
+                <test cmd="gen_periodic 999999" method="generated"/>
+                <test cmd="gen_periodic 1000000" method="generated"/>
+                <test cmd="gen_baum 1000000" method="generated"/>
+                <test cmd="gen_paper 1000000" method="generated"/>
+                <test cmd="gen_sf 1000000" method="generated"/>
+                <test cmd="gen_thue 1000000" method="generated"/>
+                <test cmd="gen_fib 1000" method="generated"/>
+                <test cmd="gen_fib 100000" method="generated"/>
+                <test cmd="gen_fib 1000000" method="generated"/>
+                <test method="manual"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/gen.cpp" type="cpp.g++"/>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/rand.h" type="h.g++"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/100500_gen.cpp" type="cpp.g++"/>
+                <binary path="files/100500_gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen1.cpp" type="cpp.g++"/>
+                <binary path="files/100500_gen1.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen_ab.cpp" type="cpp.g++"/>
+                <binary path="files/100500_gen_ab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen_abab.cpp" type="cpp.g++"/>
+                <binary path="files/100500_gen_abab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen_abacaba.cpp" type="cpp.g++"/>
+                <binary path="files/100500_gen_abacaba.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen_abc.cpp" type="cpp.g++"/>
+                <binary path="files/100500_gen_abc.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen_sqrt.cpp" type="cpp.g++11"/>
+                <binary path="files/100500_gen_sqrt.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/100500_gen_sqrt_noise.cpp" type="cpp.g++11"/>
+                <binary path="files/100500_gen_sqrt_noise.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen.cpp" type="cpp.g++"/>
+                <binary path="files/31pal_gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen1.cpp" type="cpp.g++"/>
+                <binary path="files/31pal_gen1.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen_ab.cpp" type="cpp.g++"/>
+                <binary path="files/31pal_gen_ab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen_abab.cpp" type="cpp.g++"/>
+                <binary path="files/31pal_gen_abab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen_abacaba.cpp" type="cpp.g++"/>
+                <binary path="files/31pal_gen_abacaba.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen_abc.cpp" type="cpp.g++"/>
+                <binary path="files/31pal_gen_abc.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen_sqrt.cpp" type="cpp.g++11"/>
+                <binary path="files/31pal_gen_sqrt.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/31pal_gen_sqrt_noise.cpp" type="cpp.g++11"/>
+                <binary path="files/31pal_gen_sqrt_noise.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/five_gen.cpp" type="cpp.g++"/>
+                <binary path="files/five_gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/five_gen1.cpp" type="cpp.g++"/>
+                <binary path="files/five_gen1.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/five_gen_ab.cpp" type="cpp.g++"/>
+                <binary path="files/five_gen_ab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/five_gen_abab.cpp" type="cpp.g++"/>
+                <binary path="files/five_gen_abab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/five_gen_abacaba.cpp" type="cpp.g++"/>
+                <binary path="files/five_gen_abacaba.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen.cpp" type="cpp.g++"/>
+                <binary path="files/gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_baum.cpp" type="cpp.g++"/>
+                <binary path="files/gen_baum.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_fib.cpp" type="cpp.g++"/>
+                <binary path="files/gen_fib.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_paper.cpp" type="cpp.g++"/>
+                <binary path="files/gen_paper.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_periodic.cpp" type="cpp.g++"/>
+                <binary path="files/gen_periodic.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_pup.cpp" type="cpp.g++"/>
+                <binary path="files/gen_pup.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_sf.cpp" type="cpp.g++"/>
+                <binary path="files/gen_sf.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_thue.cpp" type="cpp.g++"/>
+                <binary path="files/gen_thue.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_aaaaaa.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_aaaaaa.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_ababa.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_ababa.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_abacaba.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_abacaba.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_anticube1.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_anticube1.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_anticube2.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_anticube2.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_fibonacci.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_fibonacci.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_maxans.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_maxans.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_palindrome.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_palindrome.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_periodic.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_periodic.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_rand.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_rand.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/mnem_gen_yap.cpp" type="cpp.g++"/>
+                <binary path="files/mnem_gen_yap.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/ololo.cpp" type="cpp.g++11"/>
+                <binary path="files/ololo.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen.cpp" type="cpp.g++"/>
+                <binary path="files/pairs_gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen1.cpp" type="cpp.g++"/>
+                <binary path="files/pairs_gen1.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen_ab.cpp" type="cpp.g++"/>
+                <binary path="files/pairs_gen_ab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen_abab.cpp" type="cpp.g++"/>
+                <binary path="files/pairs_gen_abab.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen_abacaba.cpp" type="cpp.g++"/>
+                <binary path="files/pairs_gen_abacaba.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen_abc.cpp" type="cpp.g++"/>
+                <binary path="files/pairs_gen_abc.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen_sqrt.cpp" type="cpp.g++11"/>
+                <binary path="files/pairs_gen_sqrt.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/pairs_gen_sqrt_noise.cpp" type="cpp.g++11"/>
+                <binary path="files/pairs_gen_sqrt_noise.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/rnd.cpp" type="cpp.g++"/>
+                <binary path="files/rnd.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/split_gen.cpp" type="cpp.g++"/>
+                <binary path="files/split_gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/split_gen_anti_greedy.cpp" type="cpp.g++"/>
+                <binary path="files/split_gen_anti_greedy.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/split_gen_many_same.cpp" type="cpp.g++"/>
+                <binary path="files/split_gen_many_same.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/split_gen_pattern.cpp" type="cpp.g++"/>
+                <binary path="files/split_gen_pattern.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_antihash.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_antihash.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_binary.cpp" type="cpp.g++11"/>
+                <binary path="files/sverkh2_binary.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_genabstring.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_genabstring.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_genbadstring.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_genbadstring.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_genbadstring2.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_genbadstring2.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_genbitnumbers.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_genbitnumbers.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_genmul.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_genmul.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh2_rnd.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh2_rnd.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_antihash.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_antihash.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_genabstring.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_genabstring.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_genbadstring.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_genbadstring.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_genbadstring2.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_genbadstring2.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_genbitnumbers.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_genbitnumbers.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_genmul.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_genmul.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/sverkh_rnd.cpp" type="cpp.g++"/>
+                <binary path="files/sverkh_rnd.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::ncmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/ololo.cpp" type="cpp.g++11"/>
+                <binary path="files/ololo.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>2</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests>
+                        <test verdict="valid"/>
+                        <test verdict="invalid"/>
+                    </tests>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="accepted">
+                <source path="solutions/FOR_PAPER_finalize_bit.cpp" type="cpp.g++11"/>
+                <binary path="solutions/FOR_PAPER_finalize_bit.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/N2.cpp" type="cpp.g++11"/>
+                <binary path="solutions/N2.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/N3.cpp" type="cpp.g++11"/>
+                <binary path="solutions/N3.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="main">
+                <source path="solutions/adamant.cpp" type="cpp.g++"/>
+                <binary path="solutions/adamant.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="time-limit-exceeded">
+                <source path="solutions/block_n2.cpp" type="cpp.g++11"/>
+                <binary path="solutions/block_n2.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/eertree.cpp" type="cpp.g++11"/>
+                <binary path="solutions/eertree.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/engine.cpp" type="cpp.g++11"/>
+                <binary path="solutions/engine.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/engine_experiment.cpp" type="cpp.g++11"/>
+                <binary path="solutions/engine_experiment.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/engine_nlogn.cpp" type="cpp.g++11"/>
+                <binary path="solutions/engine_nlogn.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/engine_without_vectors.cpp" type="cpp.g++11"/>
+                <binary path="solutions/engine_without_vectors.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/finalize.cpp" type="cpp.g++11"/>
+                <binary path="solutions/finalize.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/predict.cpp" type="cpp.g++11"/>
+                <binary path="solutions/predict.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/predict_min.cpp" type="cpp.g++11"/>
+                <binary path="solutions/predict_min.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/predict_or.cpp" type="cpp.g++11"/>
+                <binary path="solutions/predict_or.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/predict_or_bit.cpp" type="cpp.g++11"/>
+                <binary path="solutions/predict_or_bit.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/rumi_omg.cpp" type="cpp.g++"/>
+                <binary path="solutions/rumi_omg.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/series.cpp" type="cpp.g++11"/>
+                <binary path="solutions/series.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>2</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list>
+            <stress index="2" path="stresses/002"/>
+            <stress index="1" path="stresses/001"/>
+        </list>
+    </stresses>
+    <tags>
+        <tag value="palindrome"/>
+    </tags>
+</problem>
